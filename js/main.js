@@ -128,7 +128,7 @@ likeButtons.forEach(likeButton =>{
             // decremento
             likeCounter.innerHTML = parseInt(likeCounter.innerHTML) - 1;
             // Rimuovi l'ID del post dall'array 
-            likedPostIds = likedPostIds.filter(id => id !== postId);
+            likedPostIds = likedPostIds.filter(id => id !== postID);
         }
     
 
