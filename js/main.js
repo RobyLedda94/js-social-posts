@@ -106,6 +106,9 @@ let container = document.getElementById('container');
 //  MILESTONE 2
 
 // dichiaro l'array vuoto che conterrà i like savati
+let likePostsIds = [];
+console.log(likePostsIds);
 
-let likePosts = [];
-console.log(likePosts);
+// recupero i pulsanti con classe like button dal dom
+const likeButtons = document.querySelectorAll('like-button');
+console.log('sono un pulsante', likeButtons);

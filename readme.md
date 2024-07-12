@@ -23,3 +23,4 @@ Numero push minimo: 10/12
 <!--milestone 2 -->
 
 1- devo creare un array vuoto dove salvo gli id dei post ai quali abbiamo messo like
+2- recupero i pulsanti dei like dal dom
