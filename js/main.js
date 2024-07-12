@@ -76,6 +76,13 @@ let container = document.getElementById('container');
                     </div>                    
                 </div>
             </div>
+            <div class="post__text">${element.content}</div>
+            <div class="post__image">
+                <img src="${element.media}" alt="">
+            </div>
+         
+        </div>
+
 `
         console.log(element);
  })
