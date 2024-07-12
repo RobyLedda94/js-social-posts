@@ -112,3 +112,11 @@ console.log(likePostsIds);
 // recupero i pulsanti con classe like button dal dom
 const likeButtons = document.querySelectorAll('.like-button');
 console.log('sono un pulsante', likeButtons);
+
+// ciclo forEach
+
+likeButtons.forEach((likeButtons, i) => {
+    likeButtons.addEventListener('click', function(){
+        let likePostsIds = i + 1
+    })
+});
