@@ -104,3 +104,8 @@ let container = document.getElementById('container');
 
 
 //  MILESTONE 2
+
+// dichiaro l'array vuoto che conterrà i like savati
+
+let likePosts = [];
+console.log(likePosts);
