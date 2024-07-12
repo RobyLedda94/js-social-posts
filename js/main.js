@@ -80,9 +80,20 @@ let container = document.getElementById('container');
             <div class="post__image">
                 <img src="${element.media}" alt="">
             </div>
-         
+            <div class="post__footer">
+                <div class="likes js-likes">
+                    <div class="likes__cta">
+                        <a class="like-button  js-like-button" href="#" data-postid="1">
+                            <i class="like-button__icon fas fa-thumbs-up" aria-hidden="true"></i>
+                            <span class="like-button__label">Mi Piace</span>
+                        </a>
+                    </div>
+                    <div class="likes__counter">
+                        Piace a <b id="like-counter-1" class="js-likes-counter">${element.likes}</b> persone
+                    </div>
+                </div> 
+            </div>   
         </div>
-
 `
         console.log(element);
  })
