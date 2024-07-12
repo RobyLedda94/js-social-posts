@@ -71,8 +71,8 @@ let container = document.getElementById('container');
                         <img class="profile-pic" src="${element.author.image}" alt="Phil Mangione">                    
                     </div>
                     <div class="post-meta__data">
-                        <div class="post-meta__author">Phil Mangione</div>
-                        <div class="post-meta__time">4 mesi fa</div>
+                        <div class="post-meta__author">${element.author.name}</div>
+                        <div class="post-meta__time">${element.created}</div>
                     </div>                    
                 </div>
             </div>
