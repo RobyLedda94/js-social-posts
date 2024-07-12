@@ -102,20 +102,22 @@ let container = document.getElementById('container');
         console.log(element);
  })
 
+// MILESTONE 2
 
-//  MILESTONE 2
-// recupero tutti i pulsanti mi piace
-const likeButtons = document.querySelectorAll('.js-like-button');
+// array vuoto
+let likedPostIds = [];
 
-// array per salvare i like
-let likedPosts = [];
-// ciclo for each 
-likeButtons.forEach((likeButton, i) => {
-    likeButton.addEventListener('click', function(){
+// seleziono tutti i pulsandi con classe like
+const likeButtons = document.querySelectorAll('.like-button');
 
+// itero su ogni pulsante
 
-
-    
-        
+likeButtons.forEach(likeButton =>{
+    // aggiungo evento ai bottoni
+    likeButton.addEventListener('click', function (event){
+        // prevengo il comportamento di defoult del link
+        event.preventDefault()
     })
 })
+
+

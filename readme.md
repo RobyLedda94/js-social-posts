@@ -21,12 +21,8 @@ Numero push minimo: 10/12
 
 
 <!--milestone 2 -->
-
-1 - recupero tutti i pulsanti con classe like.button x
-2 - recupero tutti i contatori dei like x
-3 - array per salvare i like x
-4 - ciclo for ed evento click x
-5 - ottengo l'id del post corrispondente all'indice x
-6 - stabilisco una condizione di controllo 
-    6.1 se il post non ha ancora ricevuto like il mipiace diventa verde ed incremento i like
+1 - array per salvare i like x
+2 - recupero tutti i pulsanti con classe like.button x
+3 - itero ogni pulsante
+4 - aggiungo evento ai bottoni
  
