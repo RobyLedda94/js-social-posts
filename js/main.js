@@ -108,3 +108,20 @@ let container = document.getElementById('container');
 const likeButtons = document.querySelectorAll('.js-like-button');
 // recupero tutti i contatori dei like
 const likeCounters = document.querySelectorAll('.js-like-counter');
+// array per salvare i like
+let likedPosts = [];
+// ciclo for each 
+likeButtons.forEach((likeButton, i) => {
+    likeButton.addEventListener('click', function(){
+        // ottengo l'id del post corrispondente all'indice
+        const postId = posts[i].id;
+        // ottengo il contatore dei like corrispondente
+        const likeCounter = likeCounters[i];
+
+        if (!likedPosts.includes(postId)) {
+            
+        }
+    
+        
+    })
+})
