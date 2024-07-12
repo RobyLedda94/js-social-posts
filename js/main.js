@@ -110,5 +110,5 @@ let likePostsIds = [];
 console.log(likePostsIds);
 
 // recupero i pulsanti con classe like button dal dom
-const likeButtons = document.querySelectorAll('like-button');
+const likeButtons = document.querySelectorAll('.like-button');
 console.log('sono un pulsante', likeButtons);
