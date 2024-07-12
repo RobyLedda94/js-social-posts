@@ -116,7 +116,13 @@ likeButtons.forEach(likeButton =>{
     // aggiungo evento ai bottoni
     likeButton.addEventListener('click', function (event){
         // prevengo il comportamento di defoult del link
-        event.preventDefault()
+        event.preventDefault();
+        //variabile per ottenere l'id
+        let postID = this.getAttribute('data-postid');
+        // recupero l'elemento counter
+        let likeCounter = this.querySelector('.js-likes-counter');
+    
+
     })
 })
 

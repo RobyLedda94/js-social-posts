@@ -25,4 +25,6 @@ Numero push minimo: 10/12
 2 - recupero tutti i pulsanti con classe like.button x
 3 - itero ogni pulsante
 4 - aggiungo evento ai bottoni
+5 - recupero l'id del post dal data set
+6 - recupero l'elemento che tiene conto dei like
  
