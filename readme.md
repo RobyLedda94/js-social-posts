@@ -12,3 +12,7 @@ Numero push minimo: 10/12
 
 
 <!-- pseudo codice -->
+
+1-commentare la struttura html ed importarla x
+1.2 seleziono l'elemento con id container dal dom x
+2-eseguo un ciclo forEach per iterare la struttura base html con js 
