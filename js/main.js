@@ -104,19 +104,7 @@ let container = document.getElementById('container');
 
 
 //  MILESTONE 2
-
-// dichiaro l'array vuoto che conterrà i like savati
-let likePostsIds = [];
-console.log(likePostsIds);
-
-// recupero i pulsanti con classe like button dal dom
-const likeButtons = document.querySelectorAll('.like-button');
-console.log('sono un pulsante', likeButtons);
-
-// ciclo forEach
-
-likeButtons.forEach((likeButtons, i) => {
-    likeButtons.addEventListener('click', function(){
-        let likePostsIds = i + 1
-    })
-});
+// recupero tutti i pulsanti mi piace
+const likeButtons = document.querySelectorAll('.js-like-button');
+// recupero tutti i contatori dei like
+const likeCounters = document.querySelectorAll('.js-like-counter');

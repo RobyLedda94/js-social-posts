@@ -22,7 +22,5 @@ Numero push minimo: 10/12
 
 <!--milestone 2 -->
 
-1- devo creare un array vuoto dove salvo gli id dei post ai quali abbiamo messo like x
-2- recupero i pulsanti dei like dal dom x
-3- definisco un ciclo forEach per iterare tutti i bottoni
- 3.1- all'interno del ciclo forEach metto in attesa i bottoni per l'evento click
+1 - recupero tutti i pulsanti con classe like.button
+2 - recupero tutti i contatori dei like
