@@ -126,10 +126,18 @@ likeButtons.forEach(likeButton =>{
             // rimuovo il like
             this.classList.remove('like-button--liked');
             // decremento
-            likeCounter.innerHTML = parseInt(likeCounter.innerHTML) - 1;
+            likeCounter.textContent = parseInt(likeCounter.textContent) - 1;
             // Rimuovi l'ID del post dall'array 
             likedPostIds = likedPostIds.filter(id => id !== postID);
+        } else{
+            // aggiungo il like
+            this.classList.add('like-button--liked');
+            // incremento
+            likeCounter.innerHTML = parseInt(likeCounter.textContent) + 1;
+            // Aggiungi l'ID del post all'array likedPostIds
+            likedPostIds.push(postID);
         }
+        console.log(likedPostIds);
     
 
     })

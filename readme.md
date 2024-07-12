@@ -27,5 +27,5 @@ Numero push minimo: 10/12
 4 - aggiungo evento ai bottoni
 5 - recupero l'id del post dal data set
 6 - recupero l'elemento che tiene conto dei like
-7 - condizione per verifivare se il pulsante e gia stato cliccato in questo caso rimuovo il like altrimenti lo aggiungo
+7 - condizione per verificare se il pulsante e gia stato cliccato in questo caso rimuovo il like altrimenti lo aggiungo ed incremento
  
