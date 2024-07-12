@@ -13,6 +13,14 @@ Numero push minimo: 10/12
 
 <!-- pseudo codice -->
 
+
+<!-- milestone 1 -->
 1-commentare la struttura html ed importarla x
-1.2 seleziono l'elemento con id container dal dom x
-2-eseguo un ciclo forEach per iterare la struttura base html con js 
+1.2-seleziono l'elemento con id container dal dom x
+2-eseguo un ciclo forEach per iterare la struttura base html con js x
+
+
+<!--milestone 2 -->
+
+1-recupero il pulsante dal dom  
+2-metto il pulsante in attesa dell'evento click

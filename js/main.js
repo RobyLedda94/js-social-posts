@@ -57,12 +57,16 @@ const posts = [
 ];
 
 
+
+// MILESTONE 1
+
 // recupero l'elemento con in container dal dom
 
 let container = document.getElementById('container');
 
-// ciclo forEach dove inetto la struttura ripresa dall'html
+// ciclo forEach recupero tutti gli elementi dell'array
  posts.forEach(element => {
+    // inietto la struttura presa dall'html
     container.innerHTML +=`      
     <div class="post">
             <div class="post__header">
@@ -97,3 +101,6 @@ let container = document.getElementById('container');
 `
         console.log(element);
  })
+
+
+//  MILESTONE 2
