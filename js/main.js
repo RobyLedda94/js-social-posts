@@ -118,9 +118,15 @@ likeButtons.forEach((likeButton, i) => {
         // ottengo il contatore dei like corrispondente
         const likeCounter = likeCounters[i];
 
+        // se il post non ha ancora ricevuto il like 
         if (!likedPosts.includes(postId)) {
-            
-        }
+            likedPosts.push(postId)
+            likeButton.classList.add('like-button--liked');
+            likeCounter.textContent = parseInt (likeCounter.textContent) + 1;
+
+        } else { // altrimenti rimuovo il like
+
+        }  
     
         
     })

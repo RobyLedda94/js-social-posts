@@ -28,3 +28,5 @@ Numero push minimo: 10/12
 4 - ciclo for ed evento click x
 5 - ottengo l'id del post corrispondente all'indice x
 6 - stabilisco una condizione di controllo 
+    6.1 se il post non ha ancora ricevuto like il mipiace diventa verde ed incremento i like
+ 
