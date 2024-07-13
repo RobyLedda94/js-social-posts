@@ -120,7 +120,7 @@ likeButtons.forEach(likeButton =>{
         //variabile per ottenere l'id
         let postID = this.getAttribute('data-postid');
         // recupero l'elemento counter
-        let likeCounter = this.querySelector('.js-likes-counter');
+        let likeCounter = document.getElementById(`like-counter-${postID}`);
         // condizione di controllo
         if (this.classList.contains('like-button--liked')){
             // rimuovo il like
@@ -133,7 +133,7 @@ likeButtons.forEach(likeButton =>{
             // aggiungo il like
             this.classList.add('like-button--liked');
             // incremento
-            likeCounter.innerHTML = parseInt(likeCounter.textContent) + 1;
+            likeCounter.textContent = parseInt(likeCounter.textContent) + 1;
             // Aggiungi l'ID del post all'array likedPostIds
             likedPostIds.push(postID);
         }
